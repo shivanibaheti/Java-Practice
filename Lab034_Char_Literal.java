@@ -2,7 +2,6 @@ public class Lab034_Char_Literal {
     public static void main(String[] args) {
 
         char c1 = 'A'; // A to Z, a-z, !@#$%^&*()_+
-        //char c2 = "A"; // this is not a char, it is string
         char c2 = 'B';
         char c3 = '@';
         char c4 = '_';
@@ -12,13 +11,11 @@ public class Lab034_Char_Literal {
         char c8 = ' '; // blank space
 
 
-        // Escape Char
         char new_line = '\n';
         char tab_line = '\t';
         char back_space = '\b';
         char carriage_return = '\r';
 
-//        System.out.println("PramodDutta");
         System.out.println("Pramod"+new_line+"Dutta");
         System.out.println("Pramod"+tab_line+"Dutta");
         System.out.println("Pramod"+back_space+"Dutta");
@@ -28,7 +25,6 @@ public class Lab034_Char_Literal {
         System.out.println("Hi, This is a First line"+new_line+"This is second line\n This is Third line");
 
         char c10 = 'A';
-        //  // ASCII, (limited numbers) - A -> 65
 
         char ruppes = '₹';
         System.out.println(ruppes);
