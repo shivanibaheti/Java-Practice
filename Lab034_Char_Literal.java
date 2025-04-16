@@ -36,7 +36,7 @@ public class Lab034_Char_Literal {
         System.out.println(my_laugh_smily);
 
         char c11  = '\u1F60';
-
+        System.out.println("Kuch to");
 
 
     }
